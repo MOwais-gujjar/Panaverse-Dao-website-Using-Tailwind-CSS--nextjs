@@ -6,12 +6,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    // screens: {
-    //   sm: "400px",
-    //   md: "768px",
-    //   lg: "1420",
-    //   xl: "1920px",
-    // },
+    screens: {
+      xs: "393px",
+      sm: "576px",
+      md: "960px",
+      lg: "1440px",
+    },
     extend: {
       colors: {
         primary: "#121111",
@@ -27,6 +27,22 @@ module.exports = {
       },
       fontFamily: {
         fn: ["Inter"],
+      },
+      fontSize: {
+        xs: "0.75rem",
+        sm: "1.25rem",
+        md: "1.75rem",
+        lg: "3.7rem",
+      },
+      letterSpacing: {
+        tightest: "-.075em",
+        tighter: "-.05em",
+        tight: "-.025em",
+        normal: "0",
+        wide: ".025em",
+        wider: ".05em",
+        widest: ".25em",
+        widest: ".5em",
       },
     },
   },

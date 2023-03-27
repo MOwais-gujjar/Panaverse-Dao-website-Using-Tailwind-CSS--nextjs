@@ -17,7 +17,7 @@ const Navbar = () => {
     <>
       <Wrapper>
         {/* Container Class  */}
-        <div className="md:flex md:justify-between bg-yellow-500 flex justify-between items-center md:px-5 sticky top-0 ">
+        <div className="md:flex md:justify-between  flex justify-between items-center md:px-5 sticky top-0 ">
           {/* Logo */}
           <div className="">
             <Image
@@ -30,7 +30,7 @@ const Navbar = () => {
           </div>
           {/* Humberger Menu */}
           <div
-            className=" flex justify-center items-center md:hidden mr-5"
+            className=" flex justify-center items-center md:hidden mr-5 hover:scale-105"
             onClick={() => {
               setToggle(!toggle);
               console.log("Toggle", toggle);
@@ -44,7 +44,7 @@ const Navbar = () => {
           </div>
           {/* Menu Options */}
           <ul
-            className={`absolute pl-10 text-white py-10 w-full px-5 bg-white/40 z-[-1] mt-4 transition-all duration-500
+            className={`absolute pl-10 text-black py-10 w-full px-5 bg-white md:text-white  z-[-1] mt-4 scale-105 shadow-lg
             md:bg-inherit md:static md:flex md:p-0 md:ml-[500px] md:z-auto  md:w-auto md:pb-0 ${
               toggle ? "top-20 " : "top-[-490px]"
             }`}
@@ -52,7 +52,7 @@ const Navbar = () => {
             {links.map((L) => (
               <li
                 key={L.lin}
-                className="px-4 py-1 hover:text-secondry-100 hover:font-extrabold hover:transition-all hover:duration-500"
+                className="px-5 py-1 hover:text-secondry-100 hover:font-extrabold hover:transition-all hover:duration-500"
               >
                 <Link href={L.lin}> {L.name}</Link>
               </li>
