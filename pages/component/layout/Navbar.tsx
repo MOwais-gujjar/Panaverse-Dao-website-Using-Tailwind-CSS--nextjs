@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Wrapper from "../Assets/Wrapper";
+import Wrapper from "@/pages/component/CTA/Wrapper";
 import Image from "next/image";
 import logo from "../../../public/logo.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import Link from "next/link";
-import Button from "../Assets/button";
+import Button from "../CTA/button";
 const Navbar = () => {
   let [toggle, setToggle] = useState(true);
   let links = [

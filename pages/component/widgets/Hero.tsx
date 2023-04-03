@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Button from "../Assets/button";
-import Wrapper from "../Assets/Wrapper";
-import YoutubeIcon from "@/pages/component/Assets/images/Youtube.png";
-import heroImage from "@/pages/component/Assets/images/Heroimage.png";
+import Button from "../CTA/button";
+import Wrapper from "../CTA/Wrapper";
+import YoutubeIcon from "@/pages/Assets/images/Youtube.png";
+import heroImage from "@/pages/Assets/images/Heroimage.png";
 
 const Hero = () => {
   return (
@@ -13,13 +13,13 @@ const Hero = () => {
           <div className="flex-1">
             <div
               className="font-extrabold font-body  
-            md:font-bold text-md md:text-lg"
+            md:font-bold text-md md:text-[50px] px-auto"
             >
               <h1 className=" text-secondry-100/70 flex justify-center ">
                 Certified Web 3.0{" "}
                 <b className="text-white/70 md:px-1 px-2"> And </b>
               </h1>
-              <h2 className="text-secondry-300/70 flex justify-center  tracking-wide">
+              <h2 className="text-secondry-300/70 flex justify-center tracking-wide">
                 Metaverse Developer
               </h2>
             </div>
@@ -52,7 +52,7 @@ const Hero = () => {
             </div>
           </div>
           {/* Right Side */}
-          <div className="w-[353px] h-[353px} md:w-[650px] md:h-[650px]">
+          <div className="w-[353px] h-[353px} md:w-[650px] md:h-[650px] px-auto mr-3 ">
             <Image src={heroImage} alt={"Hero Image"} />
           </div>
         </div>

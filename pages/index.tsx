@@ -1,6 +1,12 @@
 import Head from "next/head";
-import Navbar from "./component/layout/Navbar";
-import Hero from "./component/widgets/Hero";
+import {
+  Navbar,
+  Hero,
+  Corecourses,
+  Specializedcourse,
+  About,
+  Team__members,
+} from "./component";
 export default function Home() {
   return (
     <>
@@ -12,6 +18,10 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
+      <Corecourses />
+      <Specializedcourse />
+      <About />
+      <Team__members />
     </>
   );
 }
