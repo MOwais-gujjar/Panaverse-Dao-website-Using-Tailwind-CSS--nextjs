@@ -6,4 +6,5 @@ export {default as Corecourses} from './widgets/Corecourses'
 export {default as Specializedcourse} from './specialized/Specialized'
 export {default as About} from './aboutCEO/about'
 export {default as Team__members} from './teamMembers/Team__members'
+export {default as Footer} from './footer/footer'
 

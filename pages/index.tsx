@@ -6,7 +6,9 @@ import {
   Specializedcourse,
   About,
   Team__members,
+  Footer,
 } from "./component";
+import React from "react";
 export default function Home() {
   return (
     <>
@@ -21,7 +23,10 @@ export default function Home() {
       <Corecourses />
       <Specializedcourse />
       <About />
-      <Team__members />
+      <div className="w-full h-full m-0 p-0 mt-20 bg-gradient-to-r from-secondry-300/10 to-secondry-400/10 rounded-tl-[600px] rounded-tr-[600px]">
+        <Team__members />
+        <Footer />
+      </div>
     </>
   );
 }

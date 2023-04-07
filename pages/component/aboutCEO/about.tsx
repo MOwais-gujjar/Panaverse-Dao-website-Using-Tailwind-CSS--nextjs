@@ -7,7 +7,7 @@ const About = () => {
     <>
       <Wrapper>
         {/* container */}
-        <div className="flex flex-col-reverse md:flex-row  items-center">
+        <div className="flex flex-col-reverse md:flex-row  items-center pb-10">
           {/* left */}
           <div className="flex-1">
             <div className="md:ml-10 md:mt-0 m-5 mt-0 md:w-[400px] md:h-[550px] w-[260px] h-[361px] bg-secondry-200 md:rounded-tl-[100px] rounded-tl-[70px] md:rounded-br-[100px] rounded-br-[60px] rounded-3xl">
