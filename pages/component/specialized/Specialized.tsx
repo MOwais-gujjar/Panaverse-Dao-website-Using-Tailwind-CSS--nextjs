@@ -1,4 +1,3 @@
-import React from "react";
 import Wrapper from "../CTA/Wrapper";
 import Button from "../CTA/button";
 import Image from "next/image";
